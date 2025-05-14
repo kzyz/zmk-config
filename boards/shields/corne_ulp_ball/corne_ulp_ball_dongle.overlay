@@ -1,0 +1,13 @@
+/ {
+        chosen {
+            zmk,kscan = &mock_kscan;
+        };
+
+        mock_kscan: mock_kscan_0 { // The label can be simple, e.g., mock_kscan
+            compatible = "zmk,kscan-mock";
+            status = "okay";
+            columns = <0>;
+            rows = <0>;
+            /* events = <0>; // Optional, can be omitted for a simple mock */
+        };
+    };
