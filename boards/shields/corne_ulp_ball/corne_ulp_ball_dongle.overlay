@@ -6,6 +6,7 @@
     chosen {
         zmk,kscan = &kscan;
         zmk,physical-layout = &default_layout;
+        zmk,studio-rpc-uart = &uart0;
     };
 
     kscan: kscan {
