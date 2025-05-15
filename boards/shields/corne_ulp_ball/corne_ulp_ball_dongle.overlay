@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "corne_ulp_ball.dtsi"
+#include "corne_ulp_ball-trackball.dtsi"
 #include "corne_ulp_ball-layouts.dtsi"
 
 / {

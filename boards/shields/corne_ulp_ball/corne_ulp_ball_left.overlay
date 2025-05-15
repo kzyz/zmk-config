@@ -3,6 +3,7 @@
 // instructions.
 
 #include "corne_ulp_ball.dtsi"
+#include "corne_ulp_ball-trackball.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
