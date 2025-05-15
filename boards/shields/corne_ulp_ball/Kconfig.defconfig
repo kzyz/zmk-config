@@ -29,9 +29,6 @@ config AZ1UBALL
 config I2C
     default y
 
-config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
-    default y
-
 config ZMK_SPLIT_BLE_PERIPHERAL_INPUT
     default y
 
