@@ -18,7 +18,7 @@
 #
 ---
  board: [ "seeeduino_xiao_ble" ]
- shield: [ "corne_ulp_ball_left", "corne_ulp_ball_right", "corne_ulp_ball_dongle" ]
+ shield: [ "corne_ulp_ball_left", "corne_ulp_ball_right" ]
  include:
    - board: seeeduino_xiao_ble
      shield: corne_ulp_ball_left
