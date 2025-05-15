@@ -1,14 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "corne_ulp_ball-layouts.dtsi"
 
-&physical_layout0 {
-    transform = <&default_transform>;
-};
+#import "corne_ulp_ball-layouts.dtsi"
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &default_layout;
     };
 
     mock_kscan: mock_kscan_0 {
