@@ -3,8 +3,9 @@ if SHIELD_CORNE_ULP_BALL_LEFT
 config ZMK_KEYBOARD_NAME
     default "Corne ULP Ball"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+# Remove fixed central role configuration
+# config ZMK_SPLIT_ROLE_CENTRAL
+#     default y
 
 config ZMK_STUDIO
     default y
