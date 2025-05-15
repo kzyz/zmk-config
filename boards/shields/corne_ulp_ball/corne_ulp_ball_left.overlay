@@ -6,14 +6,9 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
-&trackball_input_listener_0 {
-    status = "okay";
+&trackball_split {
     device = <&trackball>;
     input-processors = <&zip_xy_scaler 16 16>,<&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>;
-};
-
-&trackball_input_listener_1 {
-    status = "okay";
 };
 
 &xiao_i2c {
