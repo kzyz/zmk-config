@@ -16,13 +16,12 @@
         rows = <0>;
         events = <0>;
     };
-    
-    &trackball_input_listener_0 {
-        status = "okay";
-    };
-    
-    &trackball_input_listener_1 {
-        status = "okay";
-    };
+};
 
+&trackball_input_listener_0 {
+    status = "okay";
+};
+
+&trackball_input_listener_1 {
+    status = "okay";
 };
