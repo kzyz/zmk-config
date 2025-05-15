@@ -58,7 +58,26 @@
         >;
     };
 
+    // split_inputs {
+    //     #address-cells = <1>;
+    //     #size-cells = <0>;
 
+    //     trackball_split: trackball_split@0 {
+    //         compatible = "zmk,input-split";
+    //         reg = <0>;
+    //     };
+    // };
+
+    // trackball_input_listener_0: trackball_input_listener_0 {
+    //     compatible = "zmk,input-listener";
+    //     status = "disabled";
+    // };
+
+    // trackball_input_listener_1: trackball_input_listener_1 {
+    //     compatible = "zmk,input-listener";
+    //     status = "disabled";
+    //     device = <&trackball_split>;
+    // };
 };
 
 &xiao_spi {
