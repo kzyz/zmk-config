@@ -1,15 +1,15 @@
-if SHIELD_CORNE_ULP_BALL_LEFT && ZMK_SPLIT_ROLE_CENTRAL
+# if SHIELD_CORNE_ULP_BALL_LEFT && ZMK_SPLIT_ROLE_CENTRAL
 
-config ZMK_KEYBOARD_NAME
-    default "Corne ULP Ball"
+# config ZMK_KEYBOARD_NAME
+#     default "Corne ULP Ball"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+# config ZMK_SPLIT_ROLE_CENTRAL
+#     default y
 
-config ZMK_STUDIO
-    default y
+# config ZMK_STUDIO
+#     default y
 
-endif # SHIELD_CORNE_ULP_BALL_LEFT
+# endif # SHIELD_CORNE_ULP_BALL_LEFT
 
 
 if SHIELD_CORNE_ULP_BALL_LEFT || SHIELD_CORNE_ULP_BALL_RIGHT
