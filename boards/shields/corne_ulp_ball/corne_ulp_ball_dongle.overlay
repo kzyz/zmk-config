@@ -5,12 +5,12 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan;
+        zmk,kscan = &kscan_dongle;
         zmk,physical-layout = &default_layout;
         zmk,studio-rpc-uart = &uart0;
     };
 
-    kscan: kscan {
+    kscan_dongle: kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
