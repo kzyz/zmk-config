@@ -12,12 +12,11 @@
     trackball_input_listener_0: trackball_input_listener_0 {
         compatible = "zmk,input-listener";
         status = "disabled";
-        input = <&trackball_split_0>;
     };
 
     trackball_input_listener_1: trackball_input_listener_1 {
         compatible = "zmk,input-listener";
         status = "disabled";
-        input = <&trackball_split_1>;
+        device = <&trackball_split>;
     }; 
 };
